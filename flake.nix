@@ -7,6 +7,9 @@
 
   outputs = { self, nixpkgs }: {
     templates = {
+      rust = {
+        path = ./rust;
+        description = "A basic Rust devshell";
       };
     };
   };
