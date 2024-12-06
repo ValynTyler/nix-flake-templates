@@ -7,6 +7,9 @@
 
   outputs = { self, nixpkgs }: {
     templates = {
+      aoc-rust = {
+        path = ./aoc-rust;
+        description = "Rust devshell for Advent of Code";
       };
     };
   };
