@@ -11,6 +11,10 @@
         path = ./rust;
         description = "A basic Rust devshell";
       };
+      cpp = {
+        path = ./cpp;
+        description = "A very basic C++ devshell";
+      };
     };
   };
 }
