@@ -15,6 +15,10 @@
         path = ./cpp;
         description = "A very basic C++ devshell";
       };
+      go = {
+        path = ./go;
+        description = "A basic GO development flake";
+      };
     };
   };
 }
