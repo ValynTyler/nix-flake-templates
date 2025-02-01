@@ -19,6 +19,10 @@
         path = ./go;
         description = "A basic GO development flake";
       };
+      java = {
+        path = ./java;
+        description = "A Java project that says hi";
+      };
     };
   };
 }
