@@ -1,3 +1,3 @@
 default:
-	javac -d bin/ src/HelloWorld.java
-	java -cp bin HelloWorld
+	javac -d bin/ src/Main.java
+	java -cp bin Main
