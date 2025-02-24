@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }: {
+  outputs = { self }: {
     templates = {
       rust = {
         path = ./rust;
@@ -22,6 +22,10 @@
       java = {
         path = ./java;
         description = "A Java project that says hi";
+      };
+      web = {
+        path = ./web;
+        description = "A template for quickly creating websites";
       };
     };
   };
