@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { self }: {
+  outputs = { self, nixpkgs }: {
     templates = {
       rust = {
         path = ./rust;
