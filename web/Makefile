@@ -4,5 +4,5 @@ default: serve
 
 serve:
 	echo "Opening on port $(port)..."
-	firefox localhost:$(port) &
+	xdg-open localhost:$(port)
 	http-server -p $(port)
