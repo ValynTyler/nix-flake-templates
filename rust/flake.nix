@@ -7,8 +7,8 @@
 
   outputs = { nixpkgs, ... } @ inputs: inputs.flake-utils.lib.eachDefaultSystem (system:
     let
-        overlays = [ (import inputs.rust-overlay) ];
-        pkgs = import nixpkgs { inherit system overlays; };
+      overlays = [ (import inputs.rust-overlay) ];
+      pkgs = import nixpkgs { inherit system overlays; };
     in
     {
       devShells.default = with pkgs; mkShell {
